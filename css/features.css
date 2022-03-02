@@ -1,0 +1,25 @@
+.features {
+  margin-top: 148px;
+}
+.features__name {
+  font-family: Inter;
+  font-weight: normal;
+  font-size: 18px;
+  color: #212b31;
+}
+.features__descr {
+  font-family: Inter;
+  font-weight: normal;
+  font-size: 16px;
+  color: #72787d;
+}
+
+.features__content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.features__box{
+    width: 325px;
+    text-align: center;
+    margin: 0 auto;
+}
