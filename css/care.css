@@ -1,0 +1,45 @@
+.care .title {
+  margin-top: 144px;
+}
+
+.title.care__title {
+  text-align: left;
+  margin-top: 0;
+}
+
+.care__content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 168px;
+}
+
+.care__left {
+  max-width: 50%;
+}
+
+.care__descr {
+  font-family: Inter;
+  font-size: 20px;
+  color: #72787d;
+  margin-top: 16px;
+  margin-bottom: 28px;
+}
+
+.care__link {
+  font-family: Inter;
+  font-weight: normal;
+  font-size: 20px;
+  color: #212b31;
+  position: relative;
+}
+
+.care__link::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 0;
+  background: #ffd042;
+  z-index: -1;
+  width: 100%;
+  height: 60%;
+}

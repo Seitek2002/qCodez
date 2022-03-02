@@ -1,0 +1,55 @@
+.job {
+  font-family: Inter;
+}
+
+.job__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.job__left,
+.job__right {
+  max-width: 45%;
+}
+
+.job__title {
+  font-weight: normal;
+  font-size: 32px;
+  color: #212b31;
+}
+
+.job__descr {
+  font-weight: normal;
+  font-size: 20px;
+  color: #72787d;
+}
+
+.job__name {
+  font-weight: normal;
+  font-size: 17px;
+  color: #212b31;
+}
+
+.job__info {
+  font-weight: normal;
+  font-size: 16px;
+  color: #72787d;
+}
+
+.job__item{
+    position: relative;
+}
+
+.job__num{
+    font-size: 16px;
+    color: #72787D;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #DADEDF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: -72px;
+}
